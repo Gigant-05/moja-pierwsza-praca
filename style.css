@@ -8,6 +8,10 @@
   --color-border: #444;
 }
 
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,4 +20,27 @@ body {
   color: var(--color-text);
 }
 
-/* TODO: stylowanie karty gracza */
+.player-card {
+  max-width: 500px;
+  margin: 40px;
+  padding: 20px;
+  border: 3px solid var (--color-primary);
+  background-color: var(--color-bg);
+}
+
+.card-heder
+{
+  padding: 15px;
+  margin-bottom: 2px solid var(--color-accent);
+  text-align: center;
+}
+
+.card-selection {
+  border: 2px solid rgb(255, 174, 0);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto
+}
+
+
+
